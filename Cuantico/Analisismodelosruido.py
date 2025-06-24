@@ -213,7 +213,7 @@ def plot_accuracy_vs_noise_with_errors(noise_levels, accuracy_results_dict, erro
     plt.xlabel('Nivel de Ruido', fontsize=14, fontweight='bold')
     plt.ylabel('Tasa de Aciertos', fontsize=14, fontweight='bold')
     plt.title(f'Algoritmo Deutsch-Jozsa: Análisis frente a Diferentes Tipos de Ruido\n({n} qubits, {num_tests} pruebas/ejecución, {num_runs} ejecuciones)', 
-              fontsize=16, fontweight='bold', pad=20)
+              fontsize=16, pad=20)
     plt.grid(True, linestyle='--', alpha=0.3)
     
     # Personalizar ejes
@@ -262,9 +262,9 @@ def save_results_to_csv_with_errors(noise_levels, accuracy_results_dict, error_r
 if __name__ == "__main__":
     # Parámetros de la simulación
     n = 4  # Número de qubits
-    noise_levels = np.linspace(0, 1, 20)  # 20 niveles de ruido entre 0 y 0.5
+    noise_levels = np.linspace(0, 1, 30)  # 30 niveles de ruido entre 0 y 0.5
     num_tests = 100  # Número de pruebas para cada nivel por ejecución
-    num_runs = 10   # Número de ejecuciones independientes para estadísticas
+    num_runs = 20   # Número de ejecuciones independientes para estadísticas
     noise_types = ["depolarizing", "dephasing", "damping"]
 
     # Ejecutar la evaluación
