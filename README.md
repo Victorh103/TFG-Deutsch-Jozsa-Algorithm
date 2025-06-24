@@ -4,9 +4,9 @@
 [![Qiskit](https://img.shields.io/badge/Qiskit-0.45+-purple.svg)](https://qiskit.org/)
 [![Status](https://img.shields.io/badge/Status-Uncomplete-success.svg)]()
 
-## 🎯 Resumen Ejecutivo
+## 🎯 Resumen 
 
-Este Trabajo de Fin de Grado presenta un análisis exhaustivo del algoritmo Deutsch-Jozsa, uno de los primeros algoritmos que demostró una ventaja computacional cuántica. A través de implementaciones clásicas, simulaciones cuánticas y validación experimental en hardware real, este proyecto explora las fronteras entre la computación clásica y cuántica.
+En este TFG se realiza un análisis exhaustivo del algoritmo Deutsch-Jozsa, uno de los primeros algoritmos que demostró una ventaja computacional cuántica. A través de implementaciones clásicas, simulaciones cuánticas y validación experimental en hardware real, este proyecto explora las fronteras entre la computación clásica y cuántica.
 
 **Resultado clave**: Demostración de ventaja cuántica exponencial (O(2^n) → O(1)) con análisis del impacto del ruido cuántico en sistemas reales.
 
