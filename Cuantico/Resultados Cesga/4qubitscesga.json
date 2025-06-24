@@ -1,0 +1,3956 @@
+{
+  "configuracion": {
+    "total_pruebas": 300,
+    "num_balanced": 250,
+    "num_constant": 50,
+    "relacion": "3:1",
+    "n_qubits": 4,
+    "shots_por_circuito": 1,
+    "qubit_layout": [
+      12,
+      13,
+      19,
+      20,
+      6
+    ]
+  },
+  "pruebas": [
+    {
+      "prueba_num": 1,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 2,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 3,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 4,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 5,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 6,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 7,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 8,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 9,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 10,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 11,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 12,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 13,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 14,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 15,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 16,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 17,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 18,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 19,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 20,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 21,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 22,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 23,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 24,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 25,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 26,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 27,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 28,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 29,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 30,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 31,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 32,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 33,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 34,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 35,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 36,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 37,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 38,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 39,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 40,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 41,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 42,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 43,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 44,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 45,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 46,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 47,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 48,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 49,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 50,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 51,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 52,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 53,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 54,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 55,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 56,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 57,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 58,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 59,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 60,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 61,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 62,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 63,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 64,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 65,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 66,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 67,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 68,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 69,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 70,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 71,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 72,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 73,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 74,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 75,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 76,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 77,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 78,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 79,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 80,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 81,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 82,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 83,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 84,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 85,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 86,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 87,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 88,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 89,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 90,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 91,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 92,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 93,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 94,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 95,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 96,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 97,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 98,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 99,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 100,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 101,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 102,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 103,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 104,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 105,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 106,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 107,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 108,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 109,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 110,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 111,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 112,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 113,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 114,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 115,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 116,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 117,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 118,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 119,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 120,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 121,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 122,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 123,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 124,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 125,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 126,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 127,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 128,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 129,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 130,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 131,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 132,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 133,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 134,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 135,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 136,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 137,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 138,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 139,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 140,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 141,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 142,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 143,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 144,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 145,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 146,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 147,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 148,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 149,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 150,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 151,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 152,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 153,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 154,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 155,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 156,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 157,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 158,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 159,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 160,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 161,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 162,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 163,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 164,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 165,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 166,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 167,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 168,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 169,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 170,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 171,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 172,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 173,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 174,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 175,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 176,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 177,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 178,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 179,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 180,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 181,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 182,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 183,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 184,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 185,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 186,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 187,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 188,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 189,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 190,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 191,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 192,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 193,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 194,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 195,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 196,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 197,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 198,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 199,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 200,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 201,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 202,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 203,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 204,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 205,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 206,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 207,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 208,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 209,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 210,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 211,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 212,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 213,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 214,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 215,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 216,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 217,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 218,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 219,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 220,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 221,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 222,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 223,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 224,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 225,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 226,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 227,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 228,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 229,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 230,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 231,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 232,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 233,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 234,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 235,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 236,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 237,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 238,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 7,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 239,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 240,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 241,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 242,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 243,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 244,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 245,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 246,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 247,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 248,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 249,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 250,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 251,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 252,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 253,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 254,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 255,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 256,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 257,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 258,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 259,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 260,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 261,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 262,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 263,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 264,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 8,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 265,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 266,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 267,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 268,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 269,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 270,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 271,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 272,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 273,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 274,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 275,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 14,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 276,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 277,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 278,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 279,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 280,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 281,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 1,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 282,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 9,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 283,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 5,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 284,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 285,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 4,
+      "expected": "balanced",
+      "classified": "constant",
+      "counts": {
+        "0000": 1
+      },
+      "correct": false,
+      "zeros_percentage": 1.0
+    },
+    {
+      "prueba_num": 286,
+      "tipo": "constant",
+      "oracle_type": "constant",
+      "oracle_case": 0,
+      "expected": "constant",
+      "classified": "balanced",
+      "counts": {
+        "1010": 1
+      },
+      "correct": false,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 287,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 288,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 289,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 12,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1111": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 290,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 11,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 291,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0101": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 292,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 10,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0010": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 293,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 294,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 295,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 296,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 2,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1110": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 297,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 6,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "1000": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 298,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 13,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0011": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 299,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 3,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0100": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    },
+    {
+      "prueba_num": 300,
+      "tipo": "balanced",
+      "oracle_type": "balanced",
+      "oracle_case": 1,
+      "expected": "balanced",
+      "classified": "balanced",
+      "counts": {
+        "0001": 1
+      },
+      "correct": true,
+      "zeros_percentage": 0.0
+    }
+  ],
+  "estadisticas": {
+    "precision": {
+      "constant": 0.4,
+      "balanced": 0.896,
+      "total": 0.8133333333333334
+    },
+    "recall": {
+      "constant": 0.4,
+      "balanced": 0.896
+    },
+    "aciertos": {
+      "constant": 20,
+      "balanced": 224,
+      "total": 244
+    },
+    "fallos": {
+      "constant": 30,
+      "balanced": 26,
+      "total": 56
+    },
+    "totales": {
+      "constant": 50,
+      "balanced": 250,
+      "total": 300
+    },
+    "matriz_confusion": {
+      "constant_correct": 20,
+      "constant_as_balanced": 30,
+      "balanced_correct": 224,
+      "balanced_as_constant": 26
+    },
+    "porcentajes": {
+      "precision_constant_pct": 40.0,
+      "precision_balanced_pct": 89.60000000000001,
+      "precision_total_pct": 81.33333333333333
+    }
+  }
+}
