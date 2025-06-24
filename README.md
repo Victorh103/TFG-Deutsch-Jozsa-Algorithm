@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-0.45+-purple.svg)](https://qiskit.org/)
-[![Status](https://img.shields.io/badge/Status-Complete-success.svg)]()
+[![Status](https://img.shields.io/badge/Status-Uncomplete-success.svg)]()
 
 ## 🎯 Resumen Ejecutivo
 
