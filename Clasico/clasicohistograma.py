@@ -45,25 +45,38 @@ def deutsch_jozsa_classical(n, oracle):
     return evaluations  # Entonces es constante
 
 # Parámetros del experimento
-n = 16
-num_trials = 5000  
+n = 18
+num_trials_balanced = 5000
+num_trials_constant = 500
 
 print("="*60)
 print(f"    ANÁLISIS HISTOGRAMA DEUTSCH-JOZSA (n = {n} bits)")
 print("="*60)
 
-evaluations_list = []
+evaluations_balanced = []
+evaluations_constant = []
 
-# Realizar experimentos solo con oráculos balanceados
-for trial in range(num_trials):
+# Realizar experimentos con oráculos balanceados
+print("Ejecutando experimentos con funciones balanceadas...")
+for trial in range(num_trials_balanced):
     oracle = create_oracle(n, "balanceado")
     evaluations = deutsch_jozsa_classical(n, oracle)
-    evaluations_list.append(evaluations)
+    evaluations_balanced.append(evaluations)
     
-    # Mostrar progreso cada 200 iteraciones
-    if (trial + 1) % 200 == 0:
-        print(f"Progreso: {trial + 1}/{num_trials} experimentos completados")
+    # Mostrar progreso cada 1000 iteraciones
+    if (trial + 1) % 1000 == 0:
+        print(f"Progreso balanceadas: {trial + 1}/{num_trials_balanced} experimentos completados")
 
+# Realizar experimentos con oráculos constantes
+print("Ejecutando experimentos con funciones constantes...")
+for trial in range(num_trials_constant):
+    oracle = create_oracle(n, "constante")
+    evaluations = deutsch_jozsa_classical(n, oracle)
+    evaluations_constant.append(evaluations)
+    
+    # Mostrar progreso cada 100 iteraciones
+    if (trial + 1) % 100 == 0:
+        print(f"Progreso constantes: {trial + 1}/{num_trials_constant} experimentos completados")
 
 # Configuración de matplotlib para estilo académico
 plt.rcParams.update({
@@ -73,28 +86,68 @@ plt.rcParams.update({
     'grid.alpha': 0.3
 })
 
-# Histograma figura
+# Crear histograma con probabilidades
 fig, ax = plt.subplots(figsize=(12, 8))
 
 max_eval_possible = n//2 + 1
-bins = np.arange(0.5, n + 1.5, 1)
+bins = np.arange(0.5, max_eval_possible + 1.5, 1)
 
-counts, bin_edges, patches = ax.hist(evaluations_list, bins=bins, 
-                                   edgecolor='black', linewidth=0.8, 
-                                   alpha=0.7, color='steelblue',
-                                   density=False)
+# Histograma para funciones balanceadas (normalizado para obtener probabilidades)
+counts_balanced, bin_edges_balanced = np.histogram(evaluations_balanced, bins=bins)
+probabilities_balanced = counts_balanced / num_trials_balanced
+
+# Histograma para funciones constantes (normalizado para obtener probabilidades)
+counts_constant, bin_edges_constant = np.histogram(evaluations_constant, bins=bins)
+probabilities_constant = counts_constant / num_trials_constant
+
+# Crear las barras
+bin_centers = (bin_edges_balanced[:-1] + bin_edges_balanced[1:]) / 2
+width = 1  # Ancho de las barras
+
+# Plotear las barras
+bars1 = ax.bar(bin_centers - width/2, probabilities_balanced, width, 
+               label='Funciones balanceadas', color='steelblue', alpha=0.7, 
+               edgecolor='black', linewidth=0.8)
+
+bars2 = ax.bar(bin_centers + width/2, probabilities_constant, width,
+               label='Funciones constantes', color='red', alpha=0.7,
+               edgecolor='black', linewidth=0.8)
 
 # Etiquetas y título
-ax.set_xlabel("Número de evaluaciones del oráculo", fontsize=14)
-ax.set_ylabel("Frecuencia", fontsize=14)
-ax.set_title(f"Algoritmo Deutsch-Jozsa Clasico\n (n = {n} bits, {num_trials} experimentos)", 
+ax.set_xlabel("Número de evaluaciones", fontsize=14)
+ax.set_ylabel("Probabilidad", fontsize=14)
+ax.set_title(f"Algoritmo Deutsch-Jozsa Clásico n = {n} bits", 
              fontsize=16, pad=20)
 
 # Configuración de ejes
-ax.set_xlim(0.5, n + 0.5)
-ax.set_xticks(range(1, n + 1))
+ax.set_xlim(0, n)
+ax.set_xticks(range(1, n+1))
+ax.set_ylim(0, max(max(probabilities_balanced), max(probabilities_constant)) * 1.1)
+
+# Agregar leyenda
+ax.legend(fontsize=12, loc='upper right')
+
+# Grid
 ax.grid(axis='y', linestyle='--', alpha=0.3)
+
 plt.tight_layout()
 plt.show()
+
+# Estadísticas descriptivas
+print("\n" + "="*60)
+print("ESTADÍSTICAS DESCRIPTIVAS")
+print("="*60)
+
+print(f"\nFUNCIONES BALANCEADAS ({num_trials_balanced} experimentos):")
+print(f"  Media de evaluaciones: {np.mean(evaluations_balanced):.2f}")
+print(f"  Desviación estándar: {np.std(evaluations_balanced):.2f}")
+print(f"  Mínimo: {min(evaluations_balanced)}")
+print(f"  Máximo: {max(evaluations_balanced)}")
+
+print(f"\nFUNCIONES CONSTANTES ({num_trials_constant} experimentos):")
+print(f"  Media de evaluaciones: {np.mean(evaluations_constant):.2f}")
+print(f"  Desviación estándar: {np.std(evaluations_constant):.2f}")
+print(f"  Mínimo: {min(evaluations_constant)}")
+print(f"  Máximo: {max(evaluations_constant)}")
 
 print("\n" + "="*60)
