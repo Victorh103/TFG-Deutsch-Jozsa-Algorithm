@@ -71,9 +71,9 @@ Dado un oráculo que implementa una función booleana f: {0,1}^n → {0,1}, dete
 
 | Sistema    | Constantes | Balanceadas | Precisión Total |
 |------------|------------|-------------|-----------------|
-| 2 Qubits   | 96.0%      | 48.7%       | 60.5%           |
+| 2 Qubits   | 96.0%      | 48.0%       | 72.0%           |
 | 4 Qubits   | 40.0%      | 89.6%       | 81.3%           |
-| **Mejora General** |        |             | **+20.8%**       |
+| **Mejora General** |        |             | **+9.3%**       |
 
 ---
 
@@ -109,46 +109,6 @@ pandas>=1.3.0
 tqdm>=4.62.0  
 seaborn>=0.11.0
 ```
-
----
-
-## 📂 Estructura del Proyecto
-
-```
-TFG-Deutsch-Jozsa-Algorithm/
-├── src/
-│   ├── classical/
-│   │   ├── AjusteexponencialClasico.py
-│   │   └── clasicohistograma.py
-│   ├── quantum/
-│   │   ├── Deutsch_Jozsa_Qiskit.py
-│   │   ├── 4_qubits.py
-│   │   └── 6_qubits.py
-│   ├── noise_analysis/
-│   │   ├── Analisismodelosruido.py
-│   │   └── Grafico_ruido_vs_fidelidad.py
-│   └── utils/
-│       ├── oracle_builder.py
-│       ├── noise_models.py
-│       └── visualization.py
-├── results/
-│   ├── figures/
-│   ├── data/
-│   └── cesga/
-├── docs/
-│   ├── teoria_deutsch_jozsa.md
-│   ├── metodologia.md
-│   └── referencias/
-├── tests/
-│   ├── test_classical.py
-│   ├── test_quantum.py
-│   └── test_noise.py
-├── requirements.txt
-├── config.yaml
-└── README.md
-```
-
----
 
 ## 🧪 Metodología
 
