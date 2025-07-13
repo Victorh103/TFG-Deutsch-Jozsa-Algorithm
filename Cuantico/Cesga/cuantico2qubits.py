@@ -55,8 +55,8 @@ def ejecutar_experimento():
     shots = 1
     qubit_layout = [19, 20, 13]
     
-    num_constant = 50
-    num_balanced = 150
+    num_constant = 100
+    num_balanced = 100
     total_pruebas = 200
     
     casos_constantes = [0, 1]

@@ -102,10 +102,10 @@ plt.rcParams.update({'font.size': 12, 'font.family': 'serif'})
 fig, ax = plt.subplots(figsize=(10, 7))
 
 # Datos experimentales con barras de error
-ax.errorbar(rango, media, yerr=std_errors, fmt='o', color='blue', 
+ax.errorbar(rango, media, yerr=3*std_errors, fmt='o', color='blue', 
             markersize=6, markerfacecolor='lightblue', markeredgecolor='blue', 
-            markeredgewidth=1, ecolor='red', elinewidth=2.5, capsize=0,
-            label="Datos experimentales ± σ")
+            markeredgewidth=0.7, ecolor='red', elinewidth=2.5, capsize=0,
+            label="Datos experimentales ± 3σ")
 
 # Línea de ajuste
 x_smooth = np.linspace(min(rango), max(rango), 100)

@@ -110,9 +110,6 @@ def generate_balanced_oracle_case(n):
     Returns:
         Entero que representa el caso del oráculo balanceado
     """
-    # Para n qubits, tenemos 2^n posibles entradas
-    # Un oráculo balanceado tiene exactamente 2^(n-1) entradas que mapean a 1
-    
     # Generamos un número aleatorio entre 1 y 2^n - 1 que represente qué qubits aplicar CNOT
     return random.randint(1, (2**n) - 1)
 
@@ -160,7 +157,7 @@ def evaluate_accuracy_with_error(n, noise_levels, num_tests=100, num_runs=10, no
         
         # Calcular estadísticas
         mean_accuracy = np.mean(run_accuracies)
-        std_accuracy = np.std(run_accuracies, ddof=1)  # Usar ddof=1 para muestra
+        std_accuracy = np.std(run_accuracies, ddof=1) 
         
         accuracy_means.append(mean_accuracy)
         accuracy_stds.append(std_accuracy)
@@ -184,9 +181,9 @@ def plot_accuracy_vs_noise_with_errors(noise_levels, accuracy_results_dict, erro
     plt.figure(figsize=(12, 8))
     
     colors = {
-        'depolarizing': '#1f77b4',  # Azul
-        'dephasing': '#ff7f0e',     # Naranja
-        'damping': '#2ca02c'        # Verde
+        'depolarizing': '#1f77b4',  
+        'dephasing': '#ff7f0e',     
+        'damping': '#2ca02c'        
     }
     
     names = {
@@ -207,12 +204,12 @@ def plot_accuracy_vs_noise_with_errors(noise_levels, accuracy_results_dict, erro
                     markeredgewidth=1.5, elinewidth=2,
                     label=names[noise_type])
     
-    # Añadir una línea de precisión aleatoria en y=0.5 
+    # Añadir una línea error aleatorio en y=0.5 
     plt.axhline(y=0.5, color='r', linestyle='--', alpha=0.7, linewidth=2, label='Precisión aleatoria')
     
     plt.xlabel('Nivel de Ruido', fontsize=14, fontweight='bold')
     plt.ylabel('Tasa de Aciertos', fontsize=14, fontweight='bold')
-    plt.title(f'Algoritmo Deutsch-Jozsa: Análisis frente a Diferentes Tipos de Ruido\n({n} qubits, {num_tests} pruebas/ejecución, {num_runs} ejecuciones)', 
+    plt.title(f' Análisis frente a Diferentes Tipos de Ruido\n({n} qubits, {num_tests} ejecuciones)', 
               fontsize=16, pad=20)
     plt.grid(True, linestyle='--', alpha=0.3)
     
@@ -302,7 +299,3 @@ if __name__ == "__main__":
 
     # Guardar resultados con errores
     save_results_to_csv_with_errors(noise_levels, accuracy_results_dict, error_results_dict)
-
-
-
-
